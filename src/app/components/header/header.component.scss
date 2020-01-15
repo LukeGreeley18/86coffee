@@ -6,37 +6,50 @@
   margin: -8px;
   display: flex;
   align-items: center;
-  background-color: #2E2F30;
-  color: #D8D8D8;
+  background-color: #2e2f30;
+  color: #d8d8d8;
   font-weight: 600;
-  filter: drop-shadow(0 0 0.75rem gray);
+  filter: drop-shadow(0 0 0.75rem black);
 }
 
 .toolbar img {
   margin: 0 0 0 16px;
 }
 
-.toolbar ul {
-    margin: 0 16px !important;
+.nav ul {
+  margin: 0 36px !important;
 }
 
-.toolbar ul li {
-    display: inline !important;
+.nav ul li {
+  cursor: pointer !important;
+  display: inline !important;
 }
 
-.toolbar ul li:after {
-    content: " | ";
+.nav ul li:after {
+  content: " | ";
 }
 
-.toolbar ul li:last-child:after {
-    content: "";
+.nav ul li:last-child:after {
+  content: "";
 }
 
-// .toolbar #twitter-logo {
-//   height: 40px;
-//   margin: 0 16px;
-// }
+.title ul {
+  margin: 0 -16px;
+  padding: 0;
+}
 
-// .toolbar #twitter-logo:hover {
-//   opacity: 0.8;
-// }
+.title ul li {
+  display: block !important;
+}
+
+.title ul li:before {
+  content: "" !important;
+}
+
+[head] {
+  font-size: 24px !important;
+}
+
+[subhead] {
+  font-size: 14px !important;
+}

@@ -1,21 +1,27 @@
 <div class="toolbar" role="banner">
     <img width="85" height="85" alt="The 86 Logo" src="../../../assets/86_logo.webp" />
-    
-    <span>Coffee. Concerts. Creativity. Community</span>
+    <div class="title">
+        <ul>
+            <li head>The 86</li>
+            <li subhead>Coffee. Concerts. Creativity. Community</li>
+        </ul>
+    </div>
     <div class="spacer"></div>
-    
-    <ul>
-        <li>
-            Home
-        </li>
-        <li>
-            Menu
-        </li>
-        <li>
-            Shops
-        </li>
-        <li>
-            Coffee
-        </li>
-    </ul>
+
+    <div class="nav">
+        <ul>
+            <li (click)="navigateHome()">
+                Home
+            </li>
+            <li (click)="navigateMenu()">
+                Menu
+            </li>
+            <li (click)="navigateShops()">
+                Shops
+            </li>
+            <li (click)="navigateCoffee()">
+                Coffee
+            </li>
+        </ul>
+    </div>
 </div>
