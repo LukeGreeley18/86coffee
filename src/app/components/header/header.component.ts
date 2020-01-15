@@ -30,7 +30,7 @@ export class HeaderComponent implements OnInit {
 
   navigateCoffee() {
     console.log('navigate coffee');
-    window.open("https://pneumacoffee.com/", "_blank");
+    window.open("https://pneumacoffee.com/collections/all", "_blank");
   }
 
 }
